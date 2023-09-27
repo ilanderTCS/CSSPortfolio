@@ -1,0 +1,206 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}body{
+    background: #f5f6f8;
+}
+/*Banner Styles*/
+
+#banner ul{
+    display: flex;
+    justify-content:left;
+    align-items:right;
+    padding:2px 0px;
+}
+#banner  ul{
+    display: flex;
+    list-style-type: none;
+}
+#banner  a{
+    float: right;
+    text-decoration: none;
+    color:rgb(64, 170, 22)
+}
+#banner  ul li{
+    padding: 5px;
+}
+#banner a{
+font-size: 28px;
+padding:5px 10px;
+}
+banner  ul a{
+    font-weight: bold;
+}
+#banner{
+    height:350px;
+    background: url(../img/img9.jpg) no-repeat;
+    background-size: 100% 100%;
+    padding:120px 80px;
+}
+#banner button{
+    font-weight: bold;
+    font-size: 25px;
+    border:none;
+    background: green yellow;
+    color:rgb(206, 88, 88);
+}
+#banner h1{
+    text-align: center;
+    font-size: 45px;
+    color:white;
+    text-shadow: 2px 3px 5px black;
+    margin-bottom: 15px;
+}
+/*Teens Styles*/
+#Teens .title{
+    text-align: center;
+    margin:10px 0px;
+    color: rgb(20, 146, 140);
+}
+#Teens .title p{
+    color: black;
+} .row{
+    display: flex;
+    flex-wrap: wrap;
+    padding:10px 25px;
+}
+.row .col{
+    width: 50%;
+}
+.row .col img{
+    height: 300px;
+    width: 80%;
+}
+.row .col .card{
+    padding: 10px;
+}
+.button{
+    color:black
+    background-color:white;
+}
+
+/*Services Styles*/
+#Services .title{
+    color: rgb(193, 82, 203);
+    text-align: center;
+    margin:20px 0px;
+}
+#Services .title p{
+    color: black;
+}
+#Services .row{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px 60px;
+}
+#Services .row .col{
+    width:33.33%;
+}
+#Services .row .card-body{
+    background: white;
+    padding:30px 25px;
+}
+#Services .row .card{
+    margin:0px 15px;
+    box-shadow: 0 0 10px rgb(118, 116, 116);
+    padding: 5px auto ;
+}
+#Services{
+    margin:60px 0px;
+}
+#Services .row .card i{
+    
+    color:#43bb89;
+    font-size: 25px;
+    padding: 10 0 ;
+}
+#Services .row .card h3{
+    color:#3ef51e
+    margin:15px 0px;
+}
+#Services .row .card p{
+    color:rgba(15, 12, 15, 0.884)
+}
+/*posts Start*/
+#posts .title{
+    text-align: center;
+    margin:20px 0px;
+    color: rgb(86, 139, 6);
+}
+#posts .title p{
+    color: black;
+}
+#posts .row{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px 60px;
+}
+#posts .row .col{
+    width:33.33%;
+}
+#posts img{
+    height:300px;
+    width: 100%;
+}
+#posts .card{
+    border:2px solid #dfdfdf;
+    margin-right:15px;
+    margin-bottom: 10px;
+    border-radius: 10px 10px 0px 0px;
+}
+#posts h3{
+    color: #177805;
+}
+#posts .card-body{
+    background: rgb(206, 196, 196);
+    padding:20px 30px;
+    line-height: 30px;
+    color:black
+}
+#posts button{
+color: rgb(19, 19, 19);
+background-color: antiquewhite;
+}
+#posts .title .border{
+    width:100px;
+    height:3px;
+    background: #03030339;
+    margin:10px auto;
+    border-radius: 5px;
+}
+/* Footer Styles*/
+#Footer .row{
+    background-image:url(/img/img.webp) ;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px 0px;
+    
+}
+#Footer .row .col{
+    width:25%;
+}
+#Footer .row .card-body{
+    background: rgb(243, 238, 238);
+    padding:30px 25px;
+}
+#Footer .row .card{
+    margin:0px 15px;
+    box-shadow: 0 0 10px rgb(118, 116, 116);
+}
+#Footer{
+    margin:40px 0px;
+}
+#Footer .row .card h3{
+    margin:15px 0px;
+    color: #2ba715;
+}
+#Footer .row .card p{
+    color:rgba(17, 1, 1, 0.864);
+}
+Footer .row .card-body footer{
+    text-align: center;
+}
+#Footer body{
+    text-align:center;
+}
